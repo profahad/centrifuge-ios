@@ -1,0 +1,27 @@
+PODS:
+  - Starscream (3.1.1)
+  - SwiftCentrifuge (0.3.1):
+    - Starscream (~> 3)
+    - SwiftProtobuf
+  - SwiftProtobuf (1.17.0)
+
+DEPENDENCIES:
+  - SwiftCentrifuge (from `../centrifuge-swift/`)
+
+SPEC REPOS:
+  trunk:
+    - Starscream
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  SwiftCentrifuge:
+    :path: "../centrifuge-swift/"
+
+SPEC CHECKSUMS:
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftCentrifuge: cb511160cf9efc4f83ebdc2f81a29ed97373374e
+  SwiftProtobuf: 9c85136c6ba74b0a1b84279dbf0f6db8efb714e0
+
+PODFILE CHECKSUM: 36f2bf4159cb16ff37c3d488ce45c761f707a683
+
+COCOAPODS: 1.10.1

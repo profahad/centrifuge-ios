@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20868AA2D682557A2D081578 /* Pods_centrifuge_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3B81E5340A8101B9F8BDAD /* Pods_centrifuge_ios.framework */; };
+		7B2688CA269EE6BA00782F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2688C9269EE6BA00782F9F /* AppDelegate.swift */; };
+		7B2688CC269EE6BA00782F9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2688CB269EE6BA00782F9F /* SceneDelegate.swift */; };
+		7B2688CE269EE6BA00782F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2688CD269EE6BA00782F9F /* ViewController.swift */; };
+		7B2688D1269EE6BA00782F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2688CF269EE6BA00782F9F /* Main.storyboard */; };
+		7B2688D3269EE6BC00782F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2688D2269EE6BC00782F9F /* Assets.xcassets */; };
+		7B2688D6269EE6BC00782F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2688D4269EE6BC00782F9F /* LaunchScreen.storyboard */; };
+		7B2688DE269EE9EB00782F9F /* CONSTANT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2688DD269EE9EB00782F9F /* CONSTANT.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26D46B8EA50DD9C139E0D83E /* Pods-centrifuge-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-centrifuge-ios.release.xcconfig"; path = "Target Support Files/Pods-centrifuge-ios/Pods-centrifuge-ios.release.xcconfig"; sourceTree = "<group>"; };
+		5B3B81E5340A8101B9F8BDAD /* Pods_centrifuge_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_centrifuge_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2688C6269EE6B900782F9F /* centrifuge-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "centrifuge-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2688C9269EE6BA00782F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B2688CB269EE6BA00782F9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B2688CD269EE6BA00782F9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B2688D0269EE6BA00782F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B2688D2269EE6BC00782F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B2688D5269EE6BC00782F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B2688D7269EE6BC00782F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2688DD269EE9EB00782F9F /* CONSTANT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CONSTANT.swift; sourceTree = "<group>"; };
+		820B86F3F097E530AE716942 /* Pods-centrifuge-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-centrifuge-ios.debug.xcconfig"; path = "Target Support Files/Pods-centrifuge-ios/Pods-centrifuge-ios.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B2688C3269EE6B900782F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20868AA2D682557A2D081578 /* Pods_centrifuge_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2233A602D747D0550CC14CC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				820B86F3F097E530AE716942 /* Pods-centrifuge-ios.debug.xcconfig */,
+				26D46B8EA50DD9C139E0D83E /* Pods-centrifuge-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F057EC38D412FCE41A23651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B3B81E5340A8101B9F8BDAD /* Pods_centrifuge_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B2688BD269EE6B900782F9F = {
+			isa = PBXGroup;
+			children = (
+				7B2688C8269EE6B900782F9F /* centrifuge-ios */,
+				7B2688C7269EE6B900782F9F /* Products */,
+				2233A602D747D0550CC14CC8 /* Pods */,
+				5F057EC38D412FCE41A23651 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B2688C7269EE6B900782F9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B2688C6269EE6B900782F9F /* centrifuge-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B2688C8269EE6B900782F9F /* centrifuge-ios */ = {
+			isa = PBXGroup;
+			children = (
+				7B2688C9269EE6BA00782F9F /* AppDelegate.swift */,
+				7B2688CB269EE6BA00782F9F /* SceneDelegate.swift */,
+				7B2688CD269EE6BA00782F9F /* ViewController.swift */,
+				7B2688CF269EE6BA00782F9F /* Main.storyboard */,
+				7B2688D2269EE6BC00782F9F /* Assets.xcassets */,
+				7B2688D4269EE6BC00782F9F /* LaunchScreen.storyboard */,
+				7B2688D7269EE6BC00782F9F /* Info.plist */,
+				7B2688DD269EE9EB00782F9F /* CONSTANT.swift */,
+			);
+			path = "centrifuge-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B2688C5269EE6B900782F9F /* centrifuge-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B2688DA269EE6BC00782F9F /* Build configuration list for PBXNativeTarget "centrifuge-ios" */;
+			buildPhases = (
+				16870C4FDF8F326327B61CD8 /* [CP] Check Pods Manifest.lock */,
+				7B2688C2269EE6B900782F9F /* Sources */,
+				7B2688C3269EE6B900782F9F /* Frameworks */,
+				7B2688C4269EE6B900782F9F /* Resources */,
+				B3B750829D006FD5C51E17F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "centrifuge-ios";
+			productName = "centrifuge-ios";
+			productReference = 7B2688C6269EE6B900782F9F /* centrifuge-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B2688BE269EE6B900782F9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7B2688C5269EE6B900782F9F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 7B2688C1269EE6B900782F9F /* Build configuration list for PBXProject "centrifuge-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B2688BD269EE6B900782F9F;
+			productRefGroup = 7B2688C7269EE6B900782F9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B2688C5269EE6B900782F9F /* centrifuge-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B2688C4269EE6B900782F9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2688D6269EE6BC00782F9F /* LaunchScreen.storyboard in Resources */,
+				7B2688D3269EE6BC00782F9F /* Assets.xcassets in Resources */,
+				7B2688D1269EE6BA00782F9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16870C4FDF8F326327B61CD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-centrifuge-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B750829D006FD5C51E17F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-centrifuge-ios/Pods-centrifuge-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-centrifuge-ios/Pods-centrifuge-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-centrifuge-ios/Pods-centrifuge-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B2688C2269EE6B900782F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2688CE269EE6BA00782F9F /* ViewController.swift in Sources */,
+				7B2688CA269EE6BA00782F9F /* AppDelegate.swift in Sources */,
+				7B2688CC269EE6BA00782F9F /* SceneDelegate.swift in Sources */,
+				7B2688DE269EE9EB00782F9F /* CONSTANT.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B2688CF269EE6BA00782F9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B2688D0269EE6BA00782F9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B2688D4269EE6BC00782F9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B2688D5269EE6BC00782F9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B2688D8269EE6BC00782F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B2688D9269EE6BC00782F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B2688DB269EE6BC00782F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820B86F3F097E530AE716942 /* Pods-centrifuge-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MWHKMF282V;
+				INFOPLIST_FILE = "centrifuge-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.verstatilogics.app.centrifuge-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B2688DC269EE6BC00782F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D46B8EA50DD9C139E0D83E /* Pods-centrifuge-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MWHKMF282V;
+				INFOPLIST_FILE = "centrifuge-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.verstatilogics.app.centrifuge-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B2688C1269EE6B900782F9F /* Build configuration list for PBXProject "centrifuge-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B2688D8269EE6BC00782F9F /* Debug */,
+				7B2688D9269EE6BC00782F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B2688DA269EE6BC00782F9F /* Build configuration list for PBXNativeTarget "centrifuge-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B2688DB269EE6BC00782F9F /* Debug */,
+				7B2688DC269EE6BC00782F9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B2688BE269EE6B900782F9F /* Project object */;
+}
